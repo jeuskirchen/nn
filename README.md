@@ -1,7 +1,7 @@
 # nn
-Minimal implementation of multilayer perceptrons and backpropagation for the course "**Advanced Concepts in Machine Learning**" (2025) in M.Sc. Artificial Intelligence at Maastricht University
+Minimal implementation of multilayer perceptrons and backpropagation for the course "**Advanced Concepts in Machine Learning**" (2025) in M.Sc. Artificial Intelligence at Maastricht University.
 
-install dependencies 
+Install dependencies 
 
 ```
 pip install -r requirements.txt
@@ -27,7 +27,7 @@ model.fit(x_train, y_train, n_epochs=1_000, batch_size=32, lr=0.01, loss_fn=nn.l
 y_pred = model(x_train)
 ```
 
-# Features
+## Features
 
 - Modular neural network architecture
 - Multiple activation functions (Sigmoid, Linear)
